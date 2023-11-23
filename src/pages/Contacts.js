@@ -1,3 +1,4 @@
+import MyForm from '../components/form/Form';
 const Contacts = () => {
     return (
 		<main className="section">
@@ -16,12 +17,9 @@ const Contacts = () => {
 						</a>
 					</li>
 					<li className="content-list__item">
-						<h2 className="title-2">Email</h2>
-						<p>
-							<a href="mailto:1veng1@mail.ru">
-								1veng1@mail.ru
-							</a>
-						</p>
+						<h2 className="title-2">Send a message</h2>
+						<MyForm />
+
 					</li>
 				</ul>
 			</div>

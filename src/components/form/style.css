@@ -1,0 +1,129 @@
+/* Header */
+.header {
+	padding: 40px 0;
+	min-height: 695px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: var(--header-bg);
+	background-image: url('./../../img/header-bg.png');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center center;
+
+	color: var(--header-text);
+	text-align: center;
+}
+
+.header__wrapper {
+	padding: 0 15px;
+	max-width: 660px;
+}
+
+.header__title {
+	margin-bottom: 20px;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.header__title strong {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.header__title em {
+	font-style: normal;
+	color: var(--accent);
+}
+
+.header__text {
+	margin-bottom: 40px;
+	font-size: 18px;
+	line-height: 1.333;
+}
+
+.header__text p + p {
+	margin-top: 0.5em;
+}
+
+
+.form__button {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 60px;
+	background-color: #5c62ec;
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	cursor: pointer;
+	border-radius: 20px;
+	box-shadow: 0 5px 0 rgb(19, 20, 27);
+	transition: background-color 0.5s ease 0s;
+	position: relative;
+	top: 0;
+}
+
+.form__title {
+	font-style: 40px;
+	font-weight: 700;
+	margin: 0px 0px 30px 0px;
+}
+.form__item {
+	margin: 0px 0px 20px 0px;
+
+}
+.form__label {
+	font-size: 18px;
+	display: flex;
+	margin: 0px 0px 10px 0px;
+  text-align: left;
+}
+.form__input {
+	height: 50px;
+	padding: 0px 20px;
+	border-radius:5px;
+	width: 100%;
+	font-size: 18px;
+  border:2px solid  #5c62ec ;
+  border-radius: 10px;
+
+}
+
+.form__input:focus {
+	box-shadow: 0 0 15px #2328a3;
+}
+
+.form__input._error {
+	box-shadow: 0 0 15px red;
+}
+
+textarea.form__input {
+	min-height: 150px;
+  min-width: 200px;
+	resize: vertical;
+  border:2px solid  #5c62ec ;
+  border-radius: 15px;
+  padding: 5px 20px 0px 20px;
+}
+
+textarea.form__input:active{
+  border:2px solid  #5c62ec ;
+  outline: none;
+}
+
+.form__button:hover{
+	background-color:#2d31a5 ;
+}
+
+.form__button:active{
+	top: 3px;
+	box-shadow: 0 2px 0 #161b13;
+}
+
+:focus,:active{outline: none;}

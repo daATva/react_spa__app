@@ -10,9 +10,9 @@ const Home = () => {
 						<li className="content-list__item">
 							<h2 className="title-2">Technologies</h2>
 							<p>
-								JavaScript, TypeScript, ReactJS, Redux,
-								HTML, CSS, NPM, BootStrap, MaterialUI,
-								TailwindCSS
+								JavaScript , ReactJS ,
+								HTML , CSS , BootStrap ,
+								TailwindCSS , SCSS
 							</p>
 						</li>
 					</ul>

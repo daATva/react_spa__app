@@ -7,8 +7,6 @@ import project02Big from "./../img/projects/02-big.jpg";
 import project03 from "./../img/projects/03.jpg";
 import project03Big from "./../img/projects/03-big.jpg";
 
-
-
 const projects = [
 	{
 		title: 'Gaming streaming portal',
